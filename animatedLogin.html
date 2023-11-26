@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login Form</title>
+	<!--- font Family ------>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&family=Poppins:wght@300&display=swap" rel="stylesheet">
+	<style type="text/css">
+		*{
+			margin:0;
+			padding: 0;
+			box-sizing: border-box;
+			font-family: 'Montserrat', sans-serif;
+		}
+		body
+		{
+			display: flex;
+			justify-content:center;
+			align-items: center;
+			height: 100vh;
+			width: 100%;
+		}
+		.form-container
+		{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			background-color: black;
+			color: white;
+			width: 25rem;
+			border-radius: 15px;
+			padding: 20px;
+			box-shadow: 0px 0px 20px 0px black;
+   			 border: 1px solid black;
+		}
+		.login-title
+		{
+			font-size: 25px;
+			margin-bottom: 12px;
+		}
+		.username,.password
+		{
+			text-align: center;
+			border: 1px solid white;
+			margin:1rem;
+			color: white;
+			background: transparent;
+			padding: 1rem 2rem;
+			border-radius: 3rem;
+			width: 15rem;
+			font-size: 15px;
+			outline: none;
+			transition: all .2s ease-in-out;
+		}
+		.username:focus, .password:focus
+		{
+			width: 20rem;
+			animation-name: colorchange;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+		}
+		.loginbtn
+{
+	border: 1px solid green;
+	background: transparent;
+	color: white;
+	padding: 1rem 3rem;
+	border-radius: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	transition: all .2s ease-in-out;
+}
+.loginbtn:hover {
+    background: green;
+    border: 2px solid green;
+}
+	@keyframes colorchange
+	{
+
+    0% {
+        border-color: green;
+        color: green;
+    }
+
+    10% {
+        border-color: yellow;
+        color: yellow;
+
+    }
+
+    20% {
+        border-color: hotpink;
+        color: hotpink;
+    }
+
+    30% {
+        border-color: red;
+        color: red;
+    }
+
+    40% {
+        border-color: purple;
+        color: purple;
+    }
+
+    50% {
+        border-color: yellow;
+        color: yellow;
+
+    }
+
+    60% {
+        border-color: cyan;
+        color: cyan;
+    }
+
+    70% {
+        border-color: skyblue;
+        color: skyblue;
+    }
+
+    80% {
+        border-color: pink;
+        color: pink;
+    }
+
+    90% {
+        border-color: red;
+        color: red;
+    }
+
+    100% {
+        border-color: yellow;
+        color: yellow;
+    }
+}
+
+
+	</style>
+
+</head>
+<body>
+	<div class="form-container">
+		<h2 class="login-title">Login Form</h2>
+		<input type="text" name="" placeholder="Your UserName" class="username">
+		<input type="password" name="" placeholder="Your Password" class="password">
+		<button type="submit" class="loginbtn">Login</button>
+	</div>
+
+</body>
+</html>
