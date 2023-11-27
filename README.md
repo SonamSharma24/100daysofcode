@@ -1,6 +1,7 @@
 # 100daysofcode
 
 ### responsive navbar using html and css
-![navbar](https://github.com/SonamSharma24/100daysofcode/assets/143026599/e3c9e064-0b59-4932-a3fd-05ba7fd49da8)
-![navbar1](https://github.com/SonamSharma24/100daysofcode/assets/143026599/9fd9e07e-050f-496b-812f-c82afaaf7277)
+![navbar](https://github.com/SonamSharma24/100daysofcode/assets/143026599/d5e8385c-7588-4ad2-9af0-218cddce762c)
+
+![navbar1](https://github.com/SonamSharma24/100daysofcode/assets/143026599/e826965e-3515-4996-a37c-d85e6f9af1f6)
 
