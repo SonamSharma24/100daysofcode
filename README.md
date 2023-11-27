@@ -25,5 +25,4 @@
 ![netflix8](https://github.com/SonamSharma24/100daysofcode/assets/143026599/65c7e331-0435-4bad-8ea3-b1d724635f9a)
 
 ##### Temoperature Converter 
-![netflix8](https://github.com/SonamSharma24/100daysofcode/assets/143026599/bf0d79c0-ede0-49c5-bf6d-8b962b599950)
 
